@@ -1,0 +1,18 @@
+Debuggerview
+	Only involve edit the .cpp file in src, and rebuild again, very simple
+	So the Debug -> CPU Debugger info will log to window/duckstation.log
+	The log format is my_label xxx
+
+
+
+DuckTrace
+	Edit all function, so that each function will log to ducktrace.txt, very advanced
+	Not only add 2 ducktrace files, also involve edit cmake.txt files in /common folder
+	Can use a controller to control what to log
+	
+
+Ducktrace_cpu debugger
+	Edit only cpu debugger, so that each function will log to ducktrace.txt, very light
+	DuckTrace is heavy, because it log every functions
+ducktrace_cpu debugger is light, only log cpu debugger (debug -> cpu debugger)
+	Not only add 2 ducktrace files, also involve edit cmake.txt files in /common folder
